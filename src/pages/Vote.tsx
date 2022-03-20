@@ -99,15 +99,15 @@ export const Vote = () => {
         Vote
       </div>
       <div className="text-blue-4 dark:text-grey-0 mb-44">
-        Bancor is a DAO managed by vBNT stakers who determine the future of the
+        Candle is a DAO managed by vCNDL stakers who determine the future of the
         protocol with their proposals.
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-y-50 gap-x-50">
         <VoteCard
           step={1}
-          title="Stake your vBNT"
-          content="In order to participate in Bancor governance activities, you should first stake your vBNT tokens."
+          title="Stake your CNDL"
+          content="In order to participate in Candle governance activities, you should first stake your vCNDL tokens."
           button="Stake Tokens"
           onClick={() => {
             if (!account) {
@@ -176,7 +176,7 @@ export const Vote = () => {
             </div>
 
             <div className="text-12 text-grey-4 dark:text-grey-0 mb-auto">
-              In order to remove vBNT from governance you would need to unstake
+              In order to remove vCNDL from governance you would need to unstake
               them first.
             </div>
             <div className="md:flex items-center w-full">

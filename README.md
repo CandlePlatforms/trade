@@ -1,13 +1,7 @@
-# Bancor Web App
+# Candle Ex Web App
 
 Open Source Token Swap and Pool Liquidity Portal
 
-## Development Team
-
-|                 | City                                                                |
-| --------------- | ------------------------------------------------------------------- |
-| Jan Langheimer  | [Freiburg](https://www.timeanddate.com/worldclock/germany/freiburg) |
-| Ran Cohen       | [Tel Aviv](https://www.timeanddate.com/worldclock/israel/tel-aviv)  |
 
 ## How to contribute
 
