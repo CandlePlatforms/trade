@@ -30,7 +30,7 @@ export const LiquidityProtection = () => {
   return (
     <div className="space-y-30">
       <p className="pl-10 md:pl-0">
-        Manage your protected positions in Bancor pools and track and analyze
+        Manage your protected positions in CandleEx pools and track and analyze
         your returns.
       </p>
 
@@ -44,7 +44,7 @@ export const LiquidityProtection = () => {
       <h2 className="pl-10 md:pl-0">Closed Positions</h2>
       <p className="pl-10 md:pl-0">
         When unstaking protected positions, you will be able to see and claim
-        your BNT here
+        your CNDL here
       </p>
       <div className="grid xl:grid-cols-2 gap-40">
         <ClaimAvailable

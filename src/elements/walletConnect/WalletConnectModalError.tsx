@@ -22,7 +22,7 @@ export const WalletConnectModalError = ({
           <p className="font-semibold">Use MetaMask In-App Browser</p>
           <p>1. Open MetaMask App on your mobile device</p>
           <p>2. Find the In-App Browser in the MetaMask Menu</p>
-          <p>3. Navigate to https://app.bancor.network</p>
+          <p>3. Navigate to https://trade.candlelabs.org</p>
         </div>
       ) : (
         <div className="bg-error text-white mb-20 p-20 rounded-30 text-center">

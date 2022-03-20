@@ -27,13 +27,13 @@ export const stakeNotification = (
     {
       type: NotificationType.pending,
       title: 'Pending Confirmation',
-      msg: 'Staking vBNT is pending confirmation',
+      msg: 'Staking vCNDL is pending confirmation',
       txHash,
       updatedInfo: {
         successTitle: 'Success!',
-        successMsg: `Your stake of ${amount} vBNT has been confirmed`,
+        successMsg: `Your stake of ${amount} vCNDL has been confirmed`,
         errorTitle: 'Transaction Failed',
-        errorMsg: `Staking ${amount} vBNT had failed. Please try again or contact support.`,
+        errorMsg: `Staking ${amount} vCNDL had failed. Please try again or contact support.`,
       },
     },
     dispatch
@@ -48,13 +48,13 @@ export const unstakeNotification = (
     {
       type: NotificationType.pending,
       title: 'Pending Confirmation',
-      msg: 'Unstaking vBNT is pending confirmation',
+      msg: 'Unstaking vCNDL is pending confirmation',
       txHash,
       updatedInfo: {
         successTitle: 'Success!',
-        successMsg: `Unstaking ${amount} vBNT has been confirmed`,
+        successMsg: `Unstaking ${amount} vCNDL has been confirmed`,
         errorTitle: 'Transaction Failed',
-        errorMsg: `Unstaking ${amount} vBNT had failed. Please try again or contact support.`,
+        errorMsg: `Unstaking ${amount} vCNDL had failed. Please try again or contact support.`,
       },
     },
     dispatch
@@ -65,7 +65,7 @@ export const stakeFailedNotification = (dispatch: any, amount: string) =>
     {
       type: NotificationType.error,
       title: 'Transaction Failed',
-      msg: `Staking ${amount} vBNT had failed. Please try again or contact support.`,
+      msg: `Staking ${amount} vCNDL had failed. Please try again or contact support.`,
     },
     dispatch
   );
@@ -75,7 +75,7 @@ export const unstakeFailedNotification = (dispatch: any, amount: string) =>
     {
       type: NotificationType.error,
       title: 'Transaction Failed',
-      msg: `Staking ${amount} vBNT had failed. Please try again or contact support.`,
+      msg: `Staking ${amount} vCNDL had failed. Please try again or contact support.`,
     },
     dispatch
   );

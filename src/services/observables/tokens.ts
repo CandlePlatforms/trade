@@ -111,10 +111,6 @@ export interface PoolToken {
 
 export const listOfLists = [
   {
-    uri: 'https://tokens.1inch.eth.link',
-    name: '1inch',
-  },
-  {
     uri: 'https://tokens.coingecko.com/ethereum/all.json',
     name: 'CoinGecko',
   },
@@ -131,8 +127,8 @@ export const listOfLists = [
     name: 'Compound',
   },
   {
-    uri: 'https://yearn.science/static/tokenlist.json',
-    name: 'Yearn',
+    uri: 'https://raw.githubusercontent.com/WLKR-Financial/tokenlist/main/wlkrverified.tokenlist.json',
+    name: 'WLKR Verified',
   },
   {
     uri: 'https://uniswap.mycryptoapi.com',
