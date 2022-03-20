@@ -14,7 +14,7 @@
 
 # misc
 .DS_Store
-.env
+
 
 #IDE
 .idea/
